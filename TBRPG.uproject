@@ -5,7 +5,7 @@
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "Femboy",
+			"Name": "TBRPG",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}

@@ -4,13 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
-#include "FemboyGameModeBase.generated.h"
+#include "TBRPGGameModeBase.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class FEMBOY_API AFemboyGameModeBase : public AGameModeBase
+class TBRPG_API ATBRPGGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	

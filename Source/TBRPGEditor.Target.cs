@@ -3,12 +3,12 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class FemboyEditorTarget : TargetRules
+public class TBRPGEditorTarget : TargetRules
 {
-	public FemboyEditorTarget( TargetInfo Target) : base(Target)
+	public TBRPGEditorTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.AddRange( new string[] { "Femboy" } );
+		ExtraModuleNames.AddRange( new string[] { "TBRPG" } );
 	}
 }

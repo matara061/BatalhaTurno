@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class Femboy : ModuleRules
+public class TBRPG : ModuleRules
 {
-	public Femboy(ReadOnlyTargetRules Target) : base(Target)
+	public TBRPG(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	

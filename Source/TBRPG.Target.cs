@@ -3,12 +3,12 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class FemboyTarget : TargetRules
+public class TBRPGTarget : TargetRules
 {
-	public FemboyTarget( TargetInfo Target) : base(Target)
+	public TBRPGTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.AddRange( new string[] { "Femboy" } );
+		ExtraModuleNames.AddRange( new string[] { "TBRPG" } );
 	}
 }
